@@ -156,6 +156,9 @@ h2 {
     border-radius: 5%;
 	
 }
+#home-right-wrapper {
+	display: flex;
+	}
 
 .home-thumbnail {
 	width: 21.4vw;
