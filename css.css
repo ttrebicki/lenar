@@ -214,6 +214,7 @@ h2 {
 	object-fit: cover;
 	margin-bottom: 2.64vh;
   filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
 .home-thumbnail:hover, .home-thumbnail-large:hover {
   animation-name: drop_grayscale;
@@ -223,6 +224,7 @@ h2 {
 }
 @keyframes drop_grayscale {
   100% {
+  	-webkit-filter: none;
     filter: none;
     opacity: 0.1;
     
