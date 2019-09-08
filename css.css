@@ -160,6 +160,7 @@ h2 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	height: 26.28vh;
 	}
 
 .home-thumbnail {
