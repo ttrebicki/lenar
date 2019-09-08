@@ -194,13 +194,11 @@ h2 {
   position: absolute;
   width: 20.76vw;
   height: 10.5vh;;
-  margin-top: 3.75vh;
   color: #f55;
   font-size: 1.6vw;
   font-weight: bold;
   overflow: hidden;
   text-align: center;
-  vertical-align: bottom;
 }
 .home-thumbnail-caption-centered {
   position: absolute;
