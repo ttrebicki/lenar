@@ -186,3 +186,6 @@ h2 {
 	object-fit: cover;
 	margin-bottom: 2.64vh;
 }
+.home-thumbnail:hover, .home-thumbnail-large:hover {
+  filter: none;
+}
