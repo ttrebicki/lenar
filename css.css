@@ -132,7 +132,6 @@ h2 {
 .right-wrapper {
     position: absolute;
 	width: 68vw;
-    border: 1px dotted black;
     height: 86vh;
     left: 21vw;
     top: 0vh;
