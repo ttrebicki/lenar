@@ -681,6 +681,7 @@ body.mobile .audio-player {
 	display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 999;
     
 }
 .logo {
