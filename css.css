@@ -107,15 +107,15 @@ h2 {
     width: 4.8vw;
 		}
     90% {
-      width: 4.8vw;
-      transform: scale(1000);
+      
+      transform: scale(5);
     }
     100% {        
       opacity: 0.1;
       transform: rotate(-3600deg);
       background-color: #f55;
       transform: scale(1);
-      
+      width: 100vw;
     }
 }
 #mailme {
