@@ -189,5 +189,13 @@ h2 {
 	filter: grayscale(100%);
 }
 .home-thumbnail:hover, .home-thumbnail-large:hover {
-  filter: none;
+  animation-name: drop_grayscale;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes drop_grayscale {
+  100% {
+    filter: none;
+  }
 }
