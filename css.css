@@ -778,7 +778,7 @@ h2 {
 #player {
     position: fixed; 
     top: 14vh; 
-    right: 0vw; 
+    right: 9vw; 
     width: 10vw; 
     height: 10vw;  
     border: 1px dotted black; 
