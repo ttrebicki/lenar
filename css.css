@@ -9,7 +9,10 @@ a {
 section {
 	min-height: 100vh;
 	}
-
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 #nav-bar {
 	position: fixed;
