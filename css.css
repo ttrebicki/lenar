@@ -202,10 +202,19 @@ h2 {
 }
 .home-thumbnail-caption-centered {
   position: absolute;
+  width: 100%;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  margin: 0;
+  margin: auto;
+  
+}
+
+.home-thumbnail-large-wrapper {
+  width: 68vw;
+  height: 33.3vh;
+  margin-bottom: 2.64vh;
+  overflow: hidden;
 }
 
 .home-thumbnail-large {
@@ -216,6 +225,18 @@ h2 {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
+
+.home-thumbnail-large-caption {
+  position: absolute;
+  width: 68vw;
+  height: 33.3vh;
+  color: #f55;
+  font-size: 3.2vw;
+  font-weight: bold;
+  overflow: hidden;
+  text-align: center;
+}
+
 .home-thumbnail:hover, .home-thumbnail-large:hover {
   animation-name: drop_grayscale;
   animation-duration: 1s;
