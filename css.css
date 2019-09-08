@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #fff;
 	color: #000;
@@ -17,6 +20,7 @@ h2 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 
 #nav-bar {
 	position: fixed;
@@ -53,6 +57,7 @@ h2 {
     justify-content: space-between;
     font-size: 1vw;
     
+    
 }
 .nav-link {
     vertical-align: bottom;
@@ -67,7 +72,7 @@ h2 {
 	display: flex;
     flex-direction: column;
     justify-content: space-between;
-    z-index: 999;
+    z-index: -999;
     
 }
 .logo {
@@ -83,6 +88,7 @@ h2 {
 #logo3 {
 	width: 4.8vw;
 }
+
 #logo-wrapper:hover
 
 
@@ -93,38 +99,44 @@ h2 {
     animation-duration: 5s;
     animation-iteration-count: 1;
 }
- 	
-	body {
-    
-	animation-name: logoback;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-}
 	
 @keyframes logo {
-	0% {
-	
+	50% {
+	  transform: rotate(-3600deg);
+    width: 4.8vw;
 		}
-    100% {
-		width: 100vw;
-        
-        opacity: 0.1;
-        color: #f55;
+    90% {
+      width: 4.8vw;
+      transform: scale(1000);
+    }
+    100% {        
+      opacity: 0.1;
+      transform: rotate(-3600deg);
+      background-color: #f55;
+      transform: scale(1);
+      
+    }
 }
+#mailme {
+  color: #f55;
+  padding: 0.5vh 1vw;
+  border: 1px dotted #f55;
+  border-radius: 50px;
+  z-index: 2000;
 }
-@keyframes logobackx {
-	0% {
-        background-color: #fff;
-		
+#mailme:hover {
+  animation: mailmex 0.5s infinite;
 }
+
+@keyframes mailmex {
     25% {
-	background-color: #f55;
+	color: #f55;
 }
     50% {
-	background-color: #fc5;
+	color: #fc5;
 }
     75% {
-	background-color: #fcc;
+	color: #fcc;
 }
 }
 .main-area {
@@ -176,7 +188,7 @@ h2 {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	}
-
+  
 .home-thumbnail-wrapper {
   width: 20.76vw;
   height: 10.5vh;
@@ -186,7 +198,7 @@ h2 {
 }
 
 .home-thumbnail {
-	width: 20.76vw;
+	width: 21vw;
 	height: 10.5vh;
 	object-fit: cover;
 	margin-right: 1.9vw;
@@ -197,13 +209,16 @@ h2 {
 .home-thumbnail-caption {
   position: absolute;
   width: 20.76vw;
-  height: 10.5vh;;
+  height: 10.5vh;
   color: #f55;
   font-size: 1.6vw;
   font-weight: bold;
   overflow: hidden;
   text-align: center;
 }
+
+
+
 .home-thumbnail-caption-centered {
   position: absolute;
   width: 100%;
@@ -219,6 +234,7 @@ h2 {
   height: 33.3vh;
   margin-bottom: 2.64vh;
   overflow: hidden;
+  
 }
 
 .home-thumbnail-large {
@@ -227,7 +243,7 @@ h2 {
 	object-fit: cover;
 	margin-bottom: 2.64vh;
   filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+  
 }
 
 .home-thumbnail-large-caption {
@@ -235,10 +251,11 @@ h2 {
   width: 68vw;
   height: 33.3vh;
   color: #f55;
-  font-size: 3.2vw;
+  font-size: 4.8vw;
   font-weight: bold;
   overflow: hidden;
   text-align: center;
+  
 }
 
 .home-thumbnail:hover, .home-thumbnail-large:hover {
@@ -249,7 +266,6 @@ h2 {
 }
 @keyframes drop_grayscale {
   100% {
-  	-webkit-filter: none;
     filter: none;
     opacity: 0.1;
     
