@@ -179,12 +179,14 @@ h2 {
 	object-fit: cover;
 	margin-right: 1.9vw;
 	margin-bottom: 2.64vh;
+	filter: grayscale(100%);
 }
 .home-thumbnail-large {
 	width: 68vw;
 	height: 33.3vh;
 	object-fit: cover;
 	margin-bottom: 2.64vh;
+	filter: grayscale(100%);
 }
 .home-thumbnail:hover, .home-thumbnail-large:hover {
   filter: none;
