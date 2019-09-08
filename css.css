@@ -158,6 +158,7 @@ h2 {
 }
 #home-right-wrapper {
 	display: flex;
+	width: 68vw;
 	}
 
 .home-thumbnail {
