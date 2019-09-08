@@ -36,7 +36,7 @@ section {
 #nav-wrapper {
 	position: absolute;
     min-width: 35vw;
-    bottom: 2vh;
+    bottom: 0vh;
     left: 59vw;
     
 }
