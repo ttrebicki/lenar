@@ -1,9 +1,5 @@
-/**
- * Content
- */
-
 body {
-	background-color: #fff;
+  background-color: #fff;
 	color: #000;
 	font-family: 'Roboto';
 }
@@ -23,7 +19,20 @@ section {
     border-bottom: 1px dotted black;
     background-color: rgba(255, 255, 255, 0.0);
     min-height: 10vh;
+    z-index: 1500;
 }
+#nav-bar:hover {
+    animation-name: navbar-hover;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes navbar-hover {
+  100% {
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+
 #nav-wrapper {
 	position: absolute;
     min-width: 35vw;
@@ -174,7 +183,3 @@ h2 {
 	object-fit: cover;
 	margin-bottom: 2.64vh;
 }
-
-
-
-
