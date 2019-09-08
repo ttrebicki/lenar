@@ -197,5 +197,6 @@ h2 {
 @keyframes drop_grayscale {
   100% {
     filter: none;
+    opacity: 0.1;
   }
 }
