@@ -157,9 +157,9 @@ h2 {
 	
 }
 #home-right-wrapper {
-	position: relative;
 	display: flex;
 	width: 100%;
+	flex-wrap: wrap;
 	}
 
 .home-thumbnail {
