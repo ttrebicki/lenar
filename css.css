@@ -725,7 +725,7 @@ body.mobile .audio-player {
         color: #f55;
 }
 }
-@keyframes logoback {
+@keyframes logobackx {
 	0% {
         background-color: #fff;
 		
@@ -778,7 +778,7 @@ h2 {
 #player {
     position: fixed; 
     top: 14vh; 
-    right: 9vw; 
+    right: -9vw; 
     width: 10vw; 
     height: 10vw;  
     border: 1px dotted black; 
