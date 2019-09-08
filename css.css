@@ -709,7 +709,7 @@ body.mobile .audio-player {
  	
 	body {
     
-	animation-name: logobackx;
+	animation-name: logoback;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
@@ -778,7 +778,7 @@ h2 {
 #player {
     position: fixed; 
     top: 14vh; 
-    right: -9vw; 
+    right: 0vw; 
     width: 10vw; 
     height: 10vw;  
     border: 1px dotted black; 
