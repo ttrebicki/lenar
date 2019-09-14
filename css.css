@@ -160,7 +160,7 @@ h2 {
     height: 86vh;
 }
 .right-wrapper {
-    position: absolute;
+    position: relative;
 	width: 68vw;
     height: 86vh;
     left: 21vw;
