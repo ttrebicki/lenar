@@ -279,20 +279,21 @@ h2 {
 
 	position: absolute;
 	left: 300vw;
+	top: 100vh;
 
 }
 #subsection2 {
 
 	position: absolute;
 	left: 300vw;
-	top: 100vh;
+	top: 200vh;
 
 }
 #subsection3 {
 
 	position: absolute;
 	left: 300vw;
-	top: 200vh;
+	top: 300vh;
 
 
 }
