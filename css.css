@@ -16,13 +16,13 @@ a:hover {
 }
 section {
 	min-height: 100vh;
-	margin: auto;
+	padding-left: 4vw;
 	}
 .section_container {
 	margin: auto;
 	position: relative;
 	min-height: 100vh;
-	min-width: 100vw;
+	
 	}
 h2 {
   margin-top: 0px;
