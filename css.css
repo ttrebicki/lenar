@@ -281,3 +281,18 @@ h2 {
 	left: 300vw;
 
 }
+#subsection2 {
+
+	position: absolute;
+	left: 300vw;
+	top: 100vh;
+
+}
+#subsection3 {
+
+	position: absolute;
+	left: 300vw;
+	top: 200vh;
+
+
+}
