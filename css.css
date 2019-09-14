@@ -16,14 +16,9 @@ a:hover {
 }
 section {
 	min-height: 100vh;
-	padding-left: 4vw;
+	min-width: 100vw;
 	}
-.section_container {
-	margin: auto;
-	position: relative;
-	min-height: 100vh;
-	
-	}
+
 h2 {
   margin-top: 0px;
   margin-bottom: 0px;
