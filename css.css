@@ -16,7 +16,7 @@ a:hover {
 }
 section {
 	min-height: 100vh;
-	padding-top: 10vh;
+	
 	}
 h2 {
   margin-top: 0px;
@@ -272,4 +272,10 @@ h2 {
     opacity: 0.1;
     
   }
+}
+
+.sections {
+
+	padding-top: 24vh;
+
 }
