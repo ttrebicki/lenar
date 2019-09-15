@@ -319,7 +319,7 @@ h2 {
 #main-menu-links {
 	position: absolute;
 	left: 29vw;
-	
+	min-width: 50vw;
 	font-size: 3.2vw;
 	text-shadow: 4px 16px 1px #f55;
 	
