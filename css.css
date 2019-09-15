@@ -333,7 +333,20 @@ h2 {
 }
 
 .main-menu-link:hover {
-	text-shadow: 0px 0px 1.5vw #f55;
+	animation-name: redlight;
+	animation-iteration-count: 1;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+@redlight {
+
+	0% {
+	}
+	
+	100%{
+		text-shadow: 0px 0px 1.5vw #f55;
+	}
+
 }
 
 #navscreen {
