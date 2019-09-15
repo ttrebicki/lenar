@@ -338,7 +338,7 @@ h2 {
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
 }
-@redlight {
+@keyframes redlight {
 
 	0% {
 	}
