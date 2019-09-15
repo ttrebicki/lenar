@@ -332,23 +332,7 @@ h2 {
 	text-shadow: 0.4vw 1.6vw 0.1vw #fcc;	
 }
 
-#main-menu-links:hover {
-	animation-name: redlight;
-	animation-iteration-count: 1;
-	animation-duration: 1s;
-	animation-fill-mode: forwards;
-}
-@keyframes redlight {
 
-	0% {
-		text-shadow: 0.4vw 1.6vw 0.1vw #fcc;
-	}
-	
-	100% {
-		text-shadow: 0vw 0vw 1.5vw #f55;
-	}
-
-}
 
 #navscreen {
 	animation-name: navback;
@@ -376,6 +360,24 @@ h2 {
 	animation-name: mmenulinks;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
+}
+
+#mmenulink1:hover {
+	animation-name: redlight;
+	animation-iteration-count: 1;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes redlight {
+
+	0% {
+		text-shadow: 0.4vw 1.6vw 0.1vw #fcc;
+	}
+	
+	100% {
+		text-shadow: 0vw 0vw 1.5vw #f55;
+	}
+
 }
 
 #mmenulink2 {
