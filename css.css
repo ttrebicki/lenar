@@ -327,23 +327,7 @@ h2 {
 	
 }
 
-@keyframes mmenulinks {
-	0% {
-		top: 0vh;
-	}
-	
-	
-	50% {
-		top: 2vh;
-	
-	}
-	
-	100% {
-		top: 0vh;
-	
-	}
-	
-}
+
 .main-menu-link:hover {
 	text-shadow: 0px 0px 15px #f55;
 }
@@ -370,4 +354,22 @@ h2 {
 	animation-name: mmenulinks;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
+}
+
+@keyframes mmenulinks {
+	0% {
+		top: 0vh;
+	}
+	
+	
+	50% {
+		top: 2vh;
+	
+	}
+	
+	100% {
+		top: 0vh;
+	
+	}
+	
 }
