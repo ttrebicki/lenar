@@ -321,14 +321,14 @@ h2 {
 	left: 29vw;
 	min-width: 50vw;
 	font-size: 3.2vw;
-	text-shadow: 4px 16px 1px #f55;
+	text-shadow: 0.4vw 1.6vw 0.1vw #f55;
 	
 	
 }
 
 
 .main-menu-link:hover {
-	text-shadow: 0px 0px 15px #f55;
+	text-shadow: 0px 0px 1.5vw #f55;
 }
 
 #mmenulink1 {
