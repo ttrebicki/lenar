@@ -333,7 +333,20 @@ h2 {
 }
 
 #navscreen {
-	background-color: #5f5;
+	animation-name: navback;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+}
+@keyframes navback {
+	0% {
+		background-color: #EFD;
+	}
+	50% {
+		background-color: #7FE;
+	}
+	100% {
+		background-color: #EFD;
+	}
 }
 
 #mmenulink1 {
