@@ -324,3 +324,6 @@ h2 {
 	font-size: 3.2vw;
 	text-shadow: 4px 16px 1px #f55;
 }
+.main-menu-link:hover {
+	top: 2vw;
+}
