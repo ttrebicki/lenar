@@ -333,7 +333,7 @@ h2 {
 
 #mmenulink1 {
 	position: absolute;
-	top: 0vh;
+	top: 0vw;
 	animation-name: mmenulinks;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
@@ -341,7 +341,7 @@ h2 {
 
 #mmenulink2 {
 	position: absolute;
-	top: 3.2vh;
+	top: 3.2vw;
 	animation-name: mmenulinks;
 	animation-duration: 2.5s;
 	animation-iteration-count: infinite;
@@ -349,7 +349,7 @@ h2 {
 
 #mmenulink3 {
 	position: absolute;
-	top: 6.4vh;
+	top: 6.4vw;
 	animation-name: mmenulinks;
 	animation-duration: 3.5s;
 	animation-iteration-count: infinite;
@@ -357,7 +357,7 @@ h2 {
 
 #mmenulink4 {
 	position: absolute;
-	top: 9.6vh;
+	top: 9.6vw;
 	animation-name: mmenulinks;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
@@ -365,17 +365,17 @@ h2 {
 
 @keyframes mmenulinks {
 	0% {
-		top: 0vh;
+		margin-top: 0vh;
 	}
 	
 	
 	50% {
-		top: 2vh;
+		margin-top: 2vh;
 	
 	}
 	
 	100% {
-		top: 0vh;
+		margin-top: 0vh;
 	
 	}
 	
