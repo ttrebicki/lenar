@@ -302,7 +302,7 @@ h2 {
 #subsection3 {
 
 	position: absolute;
-	right: 300vw;
+	left: 300vw;
 	top: 100vh;
 
 
@@ -310,7 +310,7 @@ h2 {
 #subsection4 {
 
 	position: absolute;
-	right: 400vw;
+	left: 400vw;
 	top: 100vh;
 
 
