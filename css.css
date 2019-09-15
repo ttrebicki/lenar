@@ -332,24 +332,28 @@ h2 {
 }
 
 #mmenulink1 {
+	position: absolute;
 	animation-name: mmenulinks;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
 }
 
 #mmenulink2 {
+	position: absolute;
 	animation-name: mmenulinks;
 	animation-duration: 2.5s;
 	animation-iteration-count: infinite;
 }
 
 #mmenulink3 {
+	position: absolute;
 	animation-name: mmenulinks;
 	animation-duration: 3.5s;
 	animation-iteration-count: infinite;
 }
 
 #mmenulink4 {
+	position: absolute;
 	animation-name: mmenulinks;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
