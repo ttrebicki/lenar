@@ -342,14 +342,17 @@ h2 {
 	animation-duration: 10s;
 }
 @keyframes navback {
-	0% {
+	25% {
 		background-color: #EFD;
 	}
 	50% {
 		background-color: #AFE;
 	}
-	100% {
+	75% {
 		background-color: #FF5;
+	}
+	100% {
+		background-color: #EFD;
 	}
 }
 
