@@ -319,6 +319,8 @@ h2 {
 
 #main-menu-links {
 	position: absolute;
+	height: 3.2vw;
+	overflow: scroll;
 	left: 29vw;
 	min-width: 100vw;
 	font-size: 3.2vw;
