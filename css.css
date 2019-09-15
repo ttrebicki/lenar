@@ -160,6 +160,16 @@ h2 {
 	width: 21vw;
     height: 86vh;
 }
+
+#breadcrumb-left-wrapper {
+	position: absolute;
+  	width: 100%;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  	margin: auto;
+}
+
 .right-wrapper {
     position: absolute;
 	width: 68vw;
@@ -278,22 +288,30 @@ h2 {
 #subsection1 {
 
 	position: absolute;
-	left: 300vw;
-	top: 100vh;
+	left: 100vw;
+	top: 0vh;
 
 }
 #subsection2 {
 
 	position: absolute;
-	left: 300vw;
-	top: 200vh;
+	left: -100vw;
+	top: 0vh;
 
 }
 #subsection3 {
 
 	position: absolute;
-	left: 300vw;
-	top: 300vh;
+	left: 100vw;
+	top: 200vh;
+
+
+}
+#subsection4 {
+
+	position: absolute;
+	left: -100vw;
+	top: 200vh;
 
 
 }
