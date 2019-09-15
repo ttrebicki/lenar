@@ -325,5 +325,6 @@ h2 {
 	text-shadow: 4px 16px 1px #f55;
 }
 .main-menu-link:hover {
+	position: absolute;
 	top: 2vw;
 }
