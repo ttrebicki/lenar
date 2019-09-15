@@ -107,20 +107,23 @@ h2 {
 }
 	
 @keyframes logo {
+	
 	50% {
-	  transform: rotate(-3600deg);
-    width: 4.8vw;
-		}
+		-webkit-transform: rotate(-3600deg);
+		transform: rotate(-3600deg);
+    	width: 4.8vw;
+	}
     90% {
-      
-      transform: scale(5);
+      	-webkit-transform: scale(5);
+      	transform: scale(5);
     }
-    100% {        
-      opacity: 0.1;
-      transform: rotate(-3600deg);
-      background-color: #f55;
-      transform: scale(1);
-      width: 100vw;
+    100% {
+    	-webkit-transform: scale(5);        
+      	opacity: 0.1;
+      	transform: rotate(-3600deg);
+      	background-color: #f55;
+      	transform: scale(1);
+      	width: 100vw;
     }
 }
 #mailme {
