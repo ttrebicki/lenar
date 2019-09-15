@@ -162,7 +162,7 @@ h2 {
     height: 86vh;
 }
 
-#breadcrumb-left-wrapper {
+.breadcrumb-left-wrapper {
 	position: absolute;
   	width: 100%;
   	top: 50%;
