@@ -326,18 +326,17 @@ h2 {
 	animation-name: mmenulinks;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
+	animation-fill-mode: both;
 }
 
 @keyframes mmenulinks {
 	0% {
-		top: 0vw;
+		
 	}
 	
-	50% {
-		top: 2vw;
-	}
+	
 	100% {
-		top: 0vw;
+		top: 2vw;
 	
 	}
 	
