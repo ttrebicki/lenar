@@ -332,7 +332,7 @@ h2 {
 	text-shadow: 0.4vw 1.6vw 0.1vw #fcc;	
 }
 
-#mmenulink1:hover {
+.main-menu-link:hover {
 	animation-name: redlight !important;
 	animation-iteration-count: 1 !important;
 	animation-duration: 1s !important;
