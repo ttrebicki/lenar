@@ -329,6 +329,10 @@ h2 {
 }
 
 @keyframes mmenulinks {
+	0% {
+		top: 0vw;
+	}
+	
 	50% {
 		top: 2vw;
 	}
