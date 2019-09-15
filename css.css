@@ -6,6 +6,7 @@ body {
 	color: #000;
 	font-family: 'Roboto';
 	overflow: scroll;
+	min-width: 1000vw;
 }
 a {
 	color: black;
