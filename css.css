@@ -341,7 +341,7 @@ h2 {
 
 #mmenulink2 {
 	position: absolute;
-	top: 5.2vw;
+	top: 10.2vw;
 	animation-name: mmenulinks;
 	animation-duration: 2.5s;
 	animation-iteration-count: infinite;
@@ -349,7 +349,7 @@ h2 {
 
 #mmenulink3 {
 	position: absolute;
-	top: 8.4vw;
+	top: 13.4vw;
 	animation-name: mmenulinks;
 	animation-duration: 3.5s;
 	animation-iteration-count: infinite;
@@ -357,7 +357,7 @@ h2 {
 
 #mmenulink4 {
 	position: absolute;
-	top: 11.6vw;
+	top: 16.6vw;
 	animation-name: mmenulinks;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
