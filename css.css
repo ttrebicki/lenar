@@ -315,3 +315,10 @@ h2 {
 
 
 }
+
+#main-menu-links {
+	position: absolute;
+	left: 29vw;
+	display: flex;
+	flex-direction: column;
+}
