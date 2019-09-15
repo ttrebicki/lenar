@@ -164,7 +164,7 @@ h2 {
 
 .breadcrumb-left-wrapper {
 	position: absolute;
-  	width: 100%;
+  	
   	top: 50%;
   	-ms-transform: translateY(-50%);
   	transform: translateY(-50%);
