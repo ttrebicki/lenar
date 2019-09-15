@@ -323,9 +323,7 @@ h2 {
 	flex-direction: column;
 	font-size: 3.2vw;
 	text-shadow: 4px 16px 1px #f55;
-	animation-name: mmenulinks;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
+	
 	
 }
 
@@ -348,4 +346,28 @@ h2 {
 }
 .main-menu-link:hover {
 	text-shadow: 0px 0px 15px #f55;
+}
+
+#mmenulink1 {
+	animation-name: mmenulinks;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+#mmenulink2 {
+	animation-name: mmenulinks;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+}
+
+#mmenulink3 {
+	animation-name: mmenulinks;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+}
+
+#mmenulink4 {
+	animation-name: mmenulinks;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
