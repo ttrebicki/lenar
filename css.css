@@ -295,20 +295,20 @@ h2 {
 
 #main-video {
 	position: absolute;
-	top: -14vh;
-	right: -4vw;
-	width: 100vw;
-	height: 100vh;
+    right: 0.3vw;
+    width: 100.3vw;
+    height: 100vh;
 
 }
 #stopka {
 	position: absolute;
-	font-size: 4.8vw;
+	font-size: 3.2vw;
 	text-align: center;
 	color: #fff;
 	width: 100vw;
 	margin: auto;
 	top: 76vh;
+	opacity: 0.5;
 }
 
 #subsection1 {
