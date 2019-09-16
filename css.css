@@ -463,6 +463,7 @@ h2 {
     	overflow-x: scroll;
     	overflow-y: visible;
     	width: 100vw;
+    	max-height: 100vh;
 	}
 	#nav-bar { 
 		display: none;
