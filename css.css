@@ -293,6 +293,13 @@ h2 {
   }
 }
 
+#main-video {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+
+}
+
 #subsection1 {
 
 	position: absolute;
