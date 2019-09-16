@@ -470,6 +470,7 @@ h2 {
 	}
 	.smalltext {
 		font-size: 7.2vw;
+		font-weight: lighter;
 	}
 	#main-menu-links {
 	position: relative;
