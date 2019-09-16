@@ -295,9 +295,19 @@ h2 {
 
 #main-video {
 	position: absolute;
+	top: -14vh;
+	left: -4vw;
 	width: 100vw;
 	height: 100vh;
 
+}
+#stopka {
+	font-size: 4.8vw;
+	color: #fee;
+	width: 30vw;
+	margin: auto;
+	position: absolute;
+	top: 75%;
 }
 
 #subsection1 {
