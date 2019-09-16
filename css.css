@@ -295,8 +295,8 @@ h2 {
 
 #main-video {
 	position: absolute;
-	bottom: 14vh;
-	right: 4vw;
+	top: -14vh;
+	right: -4vw;
 	width: 100vw;
 	height: 100vh;
 
@@ -304,10 +304,11 @@ h2 {
 #stopka {
 	position: absolute;
 	font-size: 4.8vw;
+	text-align: center;
 	color: #fff;
-	width: 30vw;
+	width: 100vw;
 	margin: auto;
-	top: 75vh;
+	top: 76vh;
 }
 
 #subsection1 {
