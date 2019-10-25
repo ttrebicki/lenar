@@ -320,21 +320,21 @@ h2 {
   animation: mailmex 5s infinite;
 }
 
-#subsection1 {
+#section_services {
 
 	position: absolute;
 	left: 100vw;
 	top: 101.4vh;
 
 }
-#subsection2 {
+#section_works {
 
 	position: absolute;
 	left: 200vw;
 	top: 101.4vh;
 
 }
-#subsection3 {
+#section_bio {
 
 	position: absolute;
 	left: 300vw;
@@ -342,7 +342,7 @@ h2 {
 
 
 }
-#subsection4 {
+#section_store {
 
 	position: absolute;
 	left: 0vw;
