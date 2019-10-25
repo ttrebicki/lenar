@@ -25,6 +25,10 @@
 	  }
 	  prevScrollpos = currentScrollPos;
 	}
+
+  function goBack() {
+    window.history.back();
+  }
 </script>
 
 <body>
@@ -117,7 +121,7 @@
       <span class="breadcrumb-left-wrapper">
         <strong>My Services &gt; Service-1</strong>
       </span>
-      <span class="bottom-left-link"><a href="#navscreen">&lt; menu</a></span>
+      <span class="bottom-left-link"><a onclick="goBack()">&lt; back</a></span>
     </div>
     <div class="right-wrapper" id="home-right-wrapper">
     </div>
