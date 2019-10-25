@@ -134,7 +134,7 @@ h2 {
   z-index: 2000;
 }
 #mailme:hover {
-  animation: mailmex 0.5s infinite;
+  animation: mailmex 5s infinite;
 }
 
 @keyframes mailmex {
