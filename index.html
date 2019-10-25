@@ -13,18 +13,6 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 <script>
-	var prevScrollpos = window.pageYOffset;
-	window.onscroll = function() {
-	  var currentScrollPos = window.pageYOffset;
-	  if (currentScrollPos < 600) {
-	    document.getElementById("nav-bar").style.top = "-10vh";
-    }
-    else {
-	    document.getElementById("nav-bar").style.top = "0";
-
-	  }
-	  prevScrollpos = currentScrollPos;
-	}
 
     window.onscroll = function() {
       document.getElementsByTagName("div").style.opacity = "0.1";
