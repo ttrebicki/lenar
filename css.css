@@ -320,6 +320,8 @@ h2 {
   animation: mailmex 5s infinite;
 }
 
+/* SERVICES */
+
 #section_services {
 
 	position: absolute;
@@ -327,6 +329,36 @@ h2 {
 	top: 101.4vh;
 
 }
+
+#section_services_service1 {
+  position: absolute;
+	left: 100vw;
+	top: 201.4vh;
+
+}
+
+#section_services_service2 {
+  position: absolute;
+	left: 100vw;
+	top: 301.4vh;
+
+}
+
+#section_services_service3 {
+  position: absolute;
+	left: 100vw;
+	top: 401.4vh;
+
+}
+
+#section_services_service3 {
+  position: absolute;
+	left: 100vw;
+	top: 501.4vh;
+
+}
+/* SERVICES END */
+
 #section_works {
 
 	position: absolute;
