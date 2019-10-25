@@ -16,10 +16,8 @@
 	var prevScrollpos = window.pageYOffset;
 	window.onscroll = function() {
 	  var currentScrollPos = window.pageYOffset;
-	  if (prevScrollpos > currentScrollPos) {
+	  if (currentScrollPos < 100) {
 	    document.getElementById("nav-bar").style.top = "-10vh";
-	    document.getElementById("main-video").style.opacity = "0.7";
-      document.getElementById("stopka").style.opacity = "0";
     }
     else {
 	    document.getElementById("nav-bar").style.top = "0";
