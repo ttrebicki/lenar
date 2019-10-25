@@ -316,6 +316,9 @@ h2 {
     opacity: 1;
     font-weight: bolder;
 }
+#stopka_lm {
+  animation: mailmex 5s infinite;
+}
 
 #subsection1 {
 
