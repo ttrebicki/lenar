@@ -318,7 +318,7 @@ h2 {
 }
 #stopka_lm {
   animation: stopka_kolor;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
 }
 
