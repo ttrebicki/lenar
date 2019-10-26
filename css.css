@@ -434,7 +434,7 @@ h2 {
   top: 40vh;
   width: 0vw;
   height: 0vw;
-  font-size: 6.4vw;
+  font-size: 0vw;
   font-weight: bold;
   transition: width 0.5s, height 0.5s;
 }
