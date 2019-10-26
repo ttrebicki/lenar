@@ -400,7 +400,7 @@ h2 {
 .store_img {
   width: 15vw;
   height: 15vw;
-  transition: width 1s, height 1s;
+  transition: width 0.5s, height 0.5s;
 }
 
 /* STORE ENDS */
