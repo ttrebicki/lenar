@@ -25,7 +25,7 @@
 	  }
 	  prevScrollpos = currentScrollPos;
 	}
-/* STORE_IMG_1 Hide/Show on hover*/
+/* STORE_IMG_1 Hide/Show on click*/
   function storeHideOne() {
     if (document.getElementById("store_img_2").style.display != "none" && document.getElementById("store_img_3").style.display != "none" && document.getElementById("store_img_4").style.display != "none" && document.getElementById("store_img_5").style.display != "none") {
       document.getElementById("store_img_2").style.display = "none";
@@ -45,71 +45,91 @@
     }
   }
 
-  /* STORE_IMG_1 Hide/Show on hover -ENDS*/
+  /* STORE_IMG_1 Hide/Show on click -ENDS*/
 
-  /* STORE_IMG_2 Hide/Show on hover*/
-    function storeHideTwo() {
+  /* STORE_IMG_2 Hide/Show on click*/
+  function storeHideTwo() {
+    if (document.getElementById("store_img_1").style.display != "none" && document.getElementById("store_img_3").style.display != "none" && document.getElementById("store_img_4").style.display != "none" && document.getElementById("store_img_5").style.display != "none") {
       document.getElementById("store_img_1").style.display = "none";
       document.getElementById("store_img_3").style.display = "none";
       document.getElementById("store_img_4").style.display = "none";
       document.getElementById("store_img_5").style.display = "none";
+      document.getElementById("store_img_2").style.width = "40vw";
+      document.getElementById("store_img_2").style.height = "40vw";
     }
-
-    function storeShowTwo() {
+    else {
       document.getElementById("store_img_1").style.display = "block";
       document.getElementById("store_img_3").style.display = "block";
       document.getElementById("store_img_4").style.display = "block";
       document.getElementById("store_img_5").style.display = "block";
+      document.getElementById("store_img_2").style.width = "15vw";
+      document.getElementById("store_img_2").style.height = "15vw";
     }
-    /* STORE_IMG_2 Hide/Show on hover -ENDS*/
+  }
+  /* STORE_IMG_2 Hide/Show on click -ENDS*/
 
-    /* STORE_IMG_3 Hide/Show on hover*/
-      function storeHideThree() {
-        document.getElementById("store_img_1").style.display = "none";
-        document.getElementById("store_img_2").style.display = "none";
-        document.getElementById("store_img_4").style.display = "none";
-        document.getElementById("store_img_5").style.display = "none";
-      }
+  /* STORE_IMG_3 Hide/Show on click*/
+  function storeHideThree() {
+    if (document.getElementById("store_img_1").style.display != "none" && document.getElementById("store_img_2").style.display != "none" && document.getElementById("store_img_4").style.display != "none" && document.getElementById("store_img_5").style.display != "none") {
+      document.getElementById("store_img_1").style.display = "none";
+      document.getElementById("store_img_2").style.display = "none";
+      document.getElementById("store_img_4").style.display = "none";
+      document.getElementById("store_img_5").style.display = "none";
+      document.getElementById("store_img_3").style.width = "40vw";
+      document.getElementById("store_img_3").style.height = "40vw";
+    }
+    else {
+      document.getElementById("store_img_1").style.display = "block";
+      document.getElementById("store_img_2").style.display = "block";
+      document.getElementById("store_img_4").style.display = "block";
+      document.getElementById("store_img_5").style.display = "block";
+      document.getElementById("store_img_3").style.width = "15vw";
+      document.getElementById("store_img_3").style.height = "15vw";
+    }
+  }
+  /* STORE_IMG_3 Hide/Show on click -ENDS*/
 
-      function storeShowThree() {
-        document.getElementById("store_img_1").style.display = "block";
-        document.getElementById("store_img_2").style.display = "block";
-        document.getElementById("store_img_4").style.display = "block";
-        document.getElementById("store_img_5").style.display = "block";
-      }
-      /* STORE_IMG_3 Hide/Show on hover -ENDS*/
+  /* STORE_IMG_4 Hide/Show on click*/
+  function storeHideFour() {
+    if (document.getElementById("store_img_1").style.display != "none" && document.getElementById("store_img_2").style.display != "none" && document.getElementById("store_img_3").style.display != "none" && document.getElementById("store_img_5").style.display != "none") {
+      document.getElementById("store_img_1").style.display = "none";
+      document.getElementById("store_img_2").style.display = "none";
+      document.getElementById("store_img_3").style.display = "none";
+      document.getElementById("store_img_5").style.display = "none";
+      document.getElementById("store_img_4").style.width = "40vw";
+      document.getElementById("store_img_4").style.height = "40vw";
+    }
+    else {
+      document.getElementById("store_img_1").style.display = "block";
+      document.getElementById("store_img_2").style.display = "block";
+      document.getElementById("store_img_3").style.display = "block";
+      document.getElementById("store_img_5").style.display = "block";
+      document.getElementById("store_img_4").style.width = "15vw";
+      document.getElementById("store_img_4").style.height = "15vw";
+    }
+  }
+  /* STORE_IMG_4 Hide/Show on click -ENDS*/
 
-      /* STORE_IMG_4 Hide/Show on hover*/
-        function storeHideFour() {
-          document.getElementById("store_img_1").style.display = "none";
-          document.getElementById("store_img_2").style.display = "none";
-          document.getElementById("store_img_3").style.display = "none";
-          document.getElementById("store_img_5").style.display = "none";
-        }
-
-        function storeShowFour() {
-          document.getElementById("store_img_1").style.display = "block";
-          document.getElementById("store_img_2").style.display = "block";
-          document.getElementById("store_img_3").style.display = "block";
-          document.getElementById("store_img_5").style.display = "block";
-        }
-        /* STORE_IMG_4 Hide/Show on hover -ENDS*/
-
-        /* STORE_IMG_5 Hide/Show on hover*/
-          function storeHideFive() {
-            document.getElementById("store_img_1").style.display = "none";
-            document.getElementById("store_img_2").style.display = "none";
-            document.getElementById("store_img_3").style.display = "none";
-            document.getElementById("store_img_4").style.display = "none";
-          }
-
-          function storeShowFive() {
-            document.getElementById("store_img_1").style.display = "block";
-            document.getElementById("store_img_2").style.display = "block";
-            document.getElementById("store_img_3").style.display = "block";
-            document.getElementById("store_img_4").style.display = "block";
-          }
-          /* STORE_IMG_5 Hide/Show on hover -ENDS*/
+  /* STORE_IMG_5 Hide/Show on click*/
+  function storeHideFive() {
+    if (document.getElementById("store_img_1").style.display != "none" && document.getElementById("store_img_2").style.display != "none" && document.getElementById("store_img_3").style.display != "none" && document.getElementById("store_img_4").style.display != "none") {
+      document.getElementById("store_img_1").style.display = "none";
+      document.getElementById("store_img_2").style.display = "none";
+      document.getElementById("store_img_3").style.display = "none";
+      document.getElementById("store_img_4").style.display = "none";
+      document.getElementById("store_img_5").style.width = "40vw";
+      document.getElementById("store_img_5").style.height = "40vw";
+    }
+    else {
+      document.getElementById("store_img_1").style.display = "block";
+      document.getElementById("store_img_2").style.display = "block";
+      document.getElementById("store_img_3").style.display = "block";
+      document.getElementById("store_img_4").style.display = "block";
+      document.getElementById("store_img_5").style.width = "15vw";
+      document.getElementById("store_img_5").style.height = "15vw";
+    }
+  }
+  /* STORE_IMG_5 Hide/Show on click -ENDS*/
   </script>
 
 

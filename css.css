@@ -386,7 +386,7 @@ h2 {
 .store_img {
   width: 15vw;
   height: 15vw;
-  transition: width 2s, height 2s;
+  transition: width 1s, height 1s;
 }
 
 /* STORE ENDS */
