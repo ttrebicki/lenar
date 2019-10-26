@@ -26,6 +26,12 @@
 	  prevScrollpos = currentScrollPos;
 	}
 
+  function storeHideOne() {
+    document.getElementById(store_img_2).style.display = "none";
+    document.getElementById(store_img_3).style.display = "none";
+    document.getElementById(store_img_4).style.display = "none";
+    document.getElementById(store_img_5).style.display = "none";
+  }
   </script>
 
 <body>
@@ -206,11 +212,11 @@
       <span class="bottom-left-link"><a href="#navscreen">&lt; menu</a></span>
     </div>
   <div class="right-wrapper" id="home-right-wrapper">
-    <img class="store_img" src="cd_foto/fortepian.webp">
-    <img class="store_img" src="cd_foto/fredericblondy.webp">
-    <img class="store_img" src="cd_foto/populista.webp">
-    <img class="store_img" src="cd_foto/repress.webp">
-    <img class="store_img" src="cd_foto/sisters.webp">
+    <img onmouseover="storeHideOne()" class="store_img" id="store_img_1" src="cd_foto/fortepian.webp">
+    <img onmouseover="storeHideTwo()" class="store_img" id="store_img_2" src="cd_foto/fredericblondy.webp">
+    <img onmouseover="storeHideThree()" class="store_img" id="store_img_3" src="cd_foto/populista.webp">
+    <img onmouseover="storeHideFour()" class="store_img" id="store_img_4" src="cd_foto/repress.webp">
+    <img onmouseover="storeHideFive()" class="store_img" id="store_img_5" src="cd_foto/sisters.webp">
   </div>
   </div>
 </section>
