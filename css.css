@@ -374,14 +374,21 @@ h2 {
 
 
 }
+
+/* STORE */
 #section_store {
 
 	position: absolute;
 	left: 0vw;
 	top: 201.4vh;
-
-
 }
+
+.store_img {
+  width: 21vw;
+  height: 21vw
+}
+
+/* STORE ENDS */
 
 #main-menu-links {
 	position: absolute;
