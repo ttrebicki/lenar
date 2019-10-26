@@ -317,7 +317,18 @@ h2 {
     font-weight: bolder;
 }
 #stopka_lm {
-  animation: mailmex 5s infinite;
+  animation: stopka_kolor;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes stopka_kolor {
+    0% {
+
+    }
+    100%{
+      color: #f55;
+    }
 }
 
 /* SERVICES */
