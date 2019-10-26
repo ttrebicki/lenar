@@ -384,8 +384,22 @@ h2 {
 }
 
 .store_img {
-  width: 21vw;
-  height: 21vw;
+  width: 15vw;
+  height: 15vw;
+}
+.store_img:hover {
+  animation-name: storehov;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes storehov {
+  0% {
+
+  }
+  100% {
+    width: 50vw;
+    height: 50vw;
+  }
 }
 
 /* STORE ENDS */
