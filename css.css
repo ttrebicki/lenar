@@ -387,7 +387,7 @@ h2 {
   width: 15vw;
   height: 15vw;
 }
-.store_img:hover {
+.store_img:active {
   animation-name: storehov;
   animation-duration: 2s;
   animation-fill-mode: forwards;
