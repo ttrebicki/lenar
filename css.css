@@ -318,7 +318,7 @@ h2 {
 }
 #stopka_lm {
   animation: stopka_kolor;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-fill-mode: forwards;
 }
 
@@ -326,8 +326,8 @@ h2 {
     0% {
       color: #fff;
     }
-    50% {
-
+    75% {
+      color: #fff;
     }
     100%{
       color: #f55;
