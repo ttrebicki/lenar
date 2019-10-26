@@ -387,6 +387,7 @@ h2 {
   width: 15vw;
   height: 15vw;
   transition: width 2s;
+  transition: height 2s;
 }
 
 /* STORE ENDS */
