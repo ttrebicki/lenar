@@ -25,7 +25,7 @@
 	  }
 	  prevScrollpos = currentScrollPos;
 	}
-
+/* STORE_IMG_1 Hide/Show on hover*/
   function storeHideOne() {
     document.getElementById("store_img_2").style.display = "none";
     document.getElementById("store_img_3").style.display = "none";
@@ -39,7 +39,73 @@
     document.getElementById("store_img_4").style.display = "block";
     document.getElementById("store_img_5").style.display = "block";
   }
+  /* STORE_IMG_1 Hide/Show on hover -ENDS*/
+
+  /* STORE_IMG_2 Hide/Show on hover*/
+    function storeHideTwo() {
+      document.getElementById("store_img_1").style.display = "none";
+      document.getElementById("store_img_3").style.display = "none";
+      document.getElementById("store_img_4").style.display = "none";
+      document.getElementById("store_img_5").style.display = "none";
+    }
+
+    function storeShowTwo() {
+      document.getElementById("store_img_1").style.display = "block";
+      document.getElementById("store_img_3").style.display = "block";
+      document.getElementById("store_img_4").style.display = "block";
+      document.getElementById("store_img_5").style.display = "block";
+    }
+    /* STORE_IMG_2 Hide/Show on hover -ENDS*/
+
+    /* STORE_IMG_3 Hide/Show on hover*/
+      function storeHideThree() {
+        document.getElementById("store_img_1").style.display = "none";
+        document.getElementById("store_img_2").style.display = "none";
+        document.getElementById("store_img_4").style.display = "none";
+        document.getElementById("store_img_5").style.display = "none";
+      }
+
+      function storeShowThree() {
+        document.getElementById("store_img_1").style.display = "block";
+        document.getElementById("store_img_2").style.display = "block";
+        document.getElementById("store_img_4").style.display = "block";
+        document.getElementById("store_img_5").style.display = "block";
+      }
+      /* STORE_IMG_3 Hide/Show on hover -ENDS*/
+
+      /* STORE_IMG_4 Hide/Show on hover*/
+        function storeHideFour() {
+          document.getElementById("store_img_1").style.display = "none";
+          document.getElementById("store_img_2").style.display = "none";
+          document.getElementById("store_img_3").style.display = "none";
+          document.getElementById("store_img_5").style.display = "none";
+        }
+
+        function storeShowFour() {
+          document.getElementById("store_img_1").style.display = "block";
+          document.getElementById("store_img_2").style.display = "block";
+          document.getElementById("store_img_3").style.display = "block";
+          document.getElementById("store_img_5").style.display = "block";
+        }
+        /* STORE_IMG_4 Hide/Show on hover -ENDS*/
+
+        /* STORE_IMG_5 Hide/Show on hover*/
+          function storeHideFive() {
+            document.getElementById("store_img_1").style.display = "none";
+            document.getElementById("store_img_2").style.display = "none";
+            document.getElementById("store_img_3").style.display = "none";
+            document.getElementById("store_img_4").style.display = "none";
+          }
+
+          function storeShowFive() {
+            document.getElementById("store_img_1").style.display = "block";
+            document.getElementById("store_img_2").style.display = "block";
+            document.getElementById("store_img_3").style.display = "block";
+            document.getElementById("store_img_4").style.display = "block";
+          }
+          /* STORE_IMG_5 Hide/Show on hover -ENDS*/
   </script>
+
 
 <body>
 
@@ -220,10 +286,10 @@
     </div>
   <div class="right-wrapper" id="home-right-wrapper">
     <img onmouseover="storeHideOne()" onmouseout="storeShowOne()" class="store_img" id="store_img_1" src="cd_foto/fortepian.webp">
-    <img onmouseover="storeHideTwo()" class="store_img" id="store_img_2" src="cd_foto/fredericblondy.webp">
-    <img onmouseover="storeHideThree()" class="store_img" id="store_img_3" src="cd_foto/populista.webp">
-    <img onmouseover="storeHideFour()" class="store_img" id="store_img_4" src="cd_foto/repress.webp">
-    <img onmouseover="storeHideFive()" class="store_img" id="store_img_5" src="cd_foto/sisters.webp">
+    <img onmouseover="storeHideTwo()" onmouseout="storeShowTwo()" class="store_img" id="store_img_2" src="cd_foto/fredericblondy.webp">
+    <img onmouseover="storeHideThree()" onmouseout="storeShowThree()" class="store_img" id="store_img_3" src="cd_foto/populista.webp">
+    <img onmouseover="storeHideFour()" onmouseout="storeShowFour()" class="store_img" id="store_img_4" src="cd_foto/repress.webp">
+    <img onmouseover="storeHideFive()" onmouseout="storeShowFive()" class="store_img" id="store_img_5" src="cd_foto/sisters.webp">
   </div>
   </div>
 </section>
