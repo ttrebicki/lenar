@@ -402,6 +402,9 @@ h2 {
   height: 15vw;
   transition: width 0.5s, height 0.5s, opacity 0.5s, top 0.5s, left 0.5s;
 }
+.store_img:hover {
+  opacity: 0.2;
+}
 
 #store_img_1 {
   position: absolute;
