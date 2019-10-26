@@ -27,18 +27,20 @@
 	}
 /* STORE_IMG_1 Hide/Show on hover*/
   function storeHideOne() {
-    document.getElementById("store_img_2").style.display = "none";
-    document.getElementById("store_img_3").style.display = "none";
-    document.getElementById("store_img_4").style.display = "none";
-    document.getElementById("store_img_5").style.display = "none";
+    if (document.getElementById("store_img_2".style.display) != "none" && document.getElementById("store_img_3".style.display) != "none" && document.getElementById("store_img_4".style.display) != "none" && document.getElementById("store_img_5".style.display) != "none") {
+      document.getElementById("store_img_2").style.display = "none";
+      document.getElementById("store_img_3").style.display = "none";
+      document.getElementById("store_img_4").style.display = "none";
+      document.getElementById("store_img_5").style.display = "none";
+    }
+    else {
+      document.getElementById("store_img_2").style.display = "block";
+      document.getElementById("store_img_3").style.display = "block";
+      document.getElementById("store_img_4").style.display = "block";
+      document.getElementById("store_img_5").style.display = "block";
+    }
   }
 
-  function storeShowOne() {
-    document.getElementById("store_img_2").style.display = "block";
-    document.getElementById("store_img_3").style.display = "block";
-    document.getElementById("store_img_4").style.display = "block";
-    document.getElementById("store_img_5").style.display = "block";
-  }
   /* STORE_IMG_1 Hide/Show on hover -ENDS*/
 
   /* STORE_IMG_2 Hide/Show on hover*/
@@ -285,7 +287,7 @@
       <span class="bottom-left-link"><a href="#navscreen">&lt; menu</a></span>
     </div>
   <div class="right-wrapper" id="home-right-wrapper">
-    <img onmouseover="storeHideOne()" onmouseout="storeShowOne()" class="store_img" id="store_img_1" src="cd_foto/fortepian.webp">
+    <img onclick="storeHideOne()"class="store_img" id="store_img_1" src="cd_foto/fortepian.webp">
     <img onmouseover="storeHideTwo()" onmouseout="storeShowTwo()" class="store_img" id="store_img_2" src="cd_foto/fredericblondy.webp">
     <img onmouseover="storeHideThree()" onmouseout="storeShowThree()" class="store_img" id="store_img_3" src="cd_foto/populista.webp">
     <img onmouseover="storeHideFour()" onmouseout="storeShowFour()" class="store_img" id="store_img_4" src="cd_foto/repress.webp">
