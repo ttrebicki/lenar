@@ -32,6 +32,13 @@
     document.getElementById("store_img_4").style.display = "none";
     document.getElementById("store_img_5").style.display = "none";
   }
+
+  function storeShowOne() {
+    document.getElementById("store_img_2").style.display = "block";
+    document.getElementById("store_img_3").style.display = "block";
+    document.getElementById("store_img_4").style.display = "block";
+    document.getElementById("store_img_5").style.display = "block";
+  }
   </script>
 
 <body>
@@ -212,7 +219,7 @@
       <span class="bottom-left-link"><a href="#navscreen">&lt; menu</a></span>
     </div>
   <div class="right-wrapper" id="home-right-wrapper">
-    <img onmouseover="storeHideOne()" class="store_img" id="store_img_1" src="cd_foto/fortepian.webp">
+    <img onmouseover="storeHideOne()" onmouseout="storeShowOne()" class="store_img" id="store_img_1" src="cd_foto/fortepian.webp">
     <img onmouseover="storeHideTwo()" class="store_img" id="store_img_2" src="cd_foto/fredericblondy.webp">
     <img onmouseover="storeHideThree()" class="store_img" id="store_img_3" src="cd_foto/populista.webp">
     <img onmouseover="storeHideFour()" class="store_img" id="store_img_4" src="cd_foto/repress.webp">
