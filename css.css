@@ -430,8 +430,8 @@ h2 {
 }
 .store_desc {
   position: absolute;
-  left: 50vw;
-  top: 40vh;
+  left: 40vw;
+  top: 30vh;
   font-size: 0vw;
   font-weight: bold;
   transition: font-size 0.5s;
