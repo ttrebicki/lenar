@@ -324,10 +324,10 @@ h2 {
 
 @keyframes stopka_kolor {
     0% {
-
+      color: #fff;
     }
     50% {
-      
+
     }
     100%{
       color: #f55;
