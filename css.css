@@ -403,6 +403,28 @@ h2 {
   transition: width 0.5s, height 0.5s, opacity 0.5s;
 }
 
+#store_img_1 {
+  position: absolute;
+  left: 0;
+}
+#store_img_2 {
+  position: absolute;
+  left: 20vw;
+}
+#store_img_3 {
+  position: absolute;
+  left: 40vw;
+}
+#store_img_4 {
+  position: absolute;
+  left: 60vw;
+}
+#store_img_5 {
+  position: absolute;
+  left: 0;
+  top: 20vw;
+}
+
 /* STORE ENDS */
 
 #main-menu-links {
