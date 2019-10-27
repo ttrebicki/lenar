@@ -380,6 +380,7 @@ h2 {
 	top: 101.4vh;
 
 }
+/* BIO */
 #section_bio {
 
 	position: absolute;
@@ -388,6 +389,12 @@ h2 {
 
 
 }
+
+#bio_left {
+  position: absolute;
+  left: 21vw;
+}
+/* BIO ENDS */
 
 /* STORE */
 #section_store {
