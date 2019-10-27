@@ -334,6 +334,16 @@ h2 {
     }
 }
 
+/*BUTTONS*/
+
+.button {
+  font-size: 3.2vw;
+  border: 1px solid black;
+  padding: 2vw;
+}
+
+/*BUTTONS END*/
+
 /* SERVICES */
 
 #section_services {
@@ -407,6 +417,11 @@ h2 {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+}
+#bio_mailme {
+  position: absolute;
+  left: 39vw;
+  top: 85vh;
 }
 
 /* BIO ENDS */
