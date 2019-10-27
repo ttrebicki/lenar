@@ -393,6 +393,7 @@ h2 {
 #bio_left {
   position: absolute;
   left: 21vw;
+  overflow: scroll;
 }
 /* BIO ENDS */
 
