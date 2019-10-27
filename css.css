@@ -592,7 +592,7 @@ h2 {
 
 }
 .sections-left-column {
-	margin-left: -1vw;
+	margin-left: -0.7vw;
 }
 
 @media only screen and (max-width: 768px) {
@@ -627,5 +627,8 @@ h2 {
 		font-size: 3em;
 		text-shadow: 0.4vw 1.6vw 0.1vw #fcc;
 	}
+  .sections-left-column {
+  	margin-left: -1vw;
+  }
 
 }
