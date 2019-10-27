@@ -402,6 +402,12 @@ h2 {
   text-align: center;
   font-size: 3.2vw;
 }
+#bio-right-wrapper {
+  background-image: url(about/lenarczyk_web-750x500.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* BIO ENDS */
 
