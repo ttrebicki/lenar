@@ -339,7 +339,7 @@ h2 {
 .button {
   font-size: 3.2vw;
   border: 1px solid black;
-  padding: 2vw;
+  padding: 1.5vw;
 }
 
 /*BUTTONS END*/
@@ -421,7 +421,7 @@ h2 {
 #bio_mailme {
   position: absolute;
   left: 39vw;
-  top: 64vh;
+  top: 70vh;
 }
 
 /* BIO ENDS */
