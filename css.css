@@ -414,7 +414,7 @@ h2 {
 }
 #bio-right-wrapper {
   background-image: url(about/lenarczyk_web-750x500.png);
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -423,6 +423,17 @@ h2 {
   left: 39vw;
   top: 74vh;
   display: flex;
+}
+#bio_partners {
+  background-color: white;
+  color: #f55;
+}
+#bio_mailme:hover {
+  background-color: white;
+}
+#bio_partners:hover {
+  background-color: black;
+  color: white;
 }
 
 /* BIO ENDS */
