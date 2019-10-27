@@ -418,10 +418,11 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#bio_mailme {
+#bio_buttons {
   position: absolute;
   left: 39vw;
   top: 74vh;
+  display: flex;
 }
 
 /* BIO ENDS */
