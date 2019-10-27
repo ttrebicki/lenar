@@ -390,13 +390,14 @@ h2 {
 
 }
 
-#bio_left {
+.bio_left {
   position: absolute;
   left: 21vw;
   overflow: scroll;
   width: 29vw;
   height: 42vh;
 }
+
 /* BIO ENDS */
 
 /* STORE */
