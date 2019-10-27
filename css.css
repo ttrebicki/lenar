@@ -397,6 +397,11 @@ h2 {
   width: 29vw;
   height: 42vh;
 }
+#bio_contact {
+  position: relative;
+  text-align: center;
+  font-size: 3.2vw;
+}
 
 /* BIO ENDS */
 
