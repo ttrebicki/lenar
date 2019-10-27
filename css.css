@@ -392,7 +392,7 @@ h2 {
 
 .bio_left {
   position: absolute;
-  left: 21vw;
+  left: 22vw;
   overflow: scroll;
   width: 29vw;
   height: 42vh;
@@ -407,6 +407,8 @@ h2 {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 79vw;
+  height: 86vh;
 }
 
 /* BIO ENDS */
