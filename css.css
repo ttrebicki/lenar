@@ -432,7 +432,7 @@ h2 {
   position: absolute;
   left: 35vw;
   top: 30vh;
-  font-size: 3.6vw;
+  font-size: 0vw;
   font-weight: bold;
   transition: font-size 0.5s, opacity 0.5s;
 }
@@ -440,7 +440,7 @@ h2 {
   position: absolute;
   left: 35vw;
   top: 40vh;
-  font-size: 0vw;
+  font-size: 3.6vw;
   font-weight: bold;
   transition: font-size 0.5s, opacity 0.5s;
 }
