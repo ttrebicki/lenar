@@ -398,7 +398,7 @@ h2 {
   height: 42vh;
 }
 #bio_contact {
-  position: relative;
+  top: 45vh;
   text-align: center;
   font-size: 3.2vw;
 }
