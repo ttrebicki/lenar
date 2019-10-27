@@ -435,6 +435,7 @@ h2 {
   font-size: 0vw;
   font-weight: bold;
   transition: font-size 0.5s, opacity 0.5s;
+  color: #f55;
 }
 .store_cta {
   font-size: 3.6vw;
